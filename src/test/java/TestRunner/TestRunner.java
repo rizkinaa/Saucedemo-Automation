@@ -9,8 +9,8 @@ import org.junit.runner.RunWith;
         glue= {"StepDef"},
 //        glue= {" /Users/developer/Project/Personal/qa/saucedemo-automation/src/test/java/StepDef/"},
         //        plugin ={"pretty","json:target/cucumber.json"})
-        plugin ={"html:target/HTML_report.html"},
-        tags="@Filter"
+        plugin ={"html:target/HTML_report.html"}
+        // tags="@Filter"
 )
 public class TestRunner {
 }
